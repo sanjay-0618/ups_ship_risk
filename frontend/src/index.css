@@ -57,3 +57,25 @@
 .glow-green {
   box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.25);
 }
+
+.glow-purple {
+  box-shadow: 0 0 15px -3px rgba(168, 85, 247, 0.25);
+}
+
+/* Subtle background patterns */
+.bg-grid-slate {
+  background-image: radial-gradient(rgba(148, 163, 184, 0.2) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 75%);
+}
+
+.card-hover-lift {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+.card-hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(15, 23, 42, 0.08);
+}
