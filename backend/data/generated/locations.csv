@@ -1,0 +1,76 @@
+location_id,location_name,city,state,country,latitude,longitude,location_type,capacity,processing_capacity,risk_baseline
+LOC001,Chicago Last Mile Facility,Chicago,IL,US,41.8781,-87.6298,Last Mile Facility,16795,960,0.25
+LOC002,Indianapolis Port,Indianapolis,IN,US,39.7684,-86.1581,Port,12284,566,0.18
+LOC003,Cleveland Warehouse,Cleveland,OH,US,41.4993,-81.6944,Warehouse,48191,3544,0.58
+LOC004,Pittsburgh Warehouse,Pittsburgh,PA,US,40.4406,-79.9959,Warehouse,2685,869,0.68
+LOC005,Louisville Sort Facility,Louisville,KY,US,38.2527,-85.7585,Sort Facility,3433,1284,0.34
+LOC006,Columbus Sort Facility,Columbus,OH,US,39.9612,-82.9988,Sort Facility,7396,4943,0.12
+LOC007,Detroit Warehouse,Detroit,MI,US,42.3314,-83.0458,Warehouse,26658,2658,0.21
+LOC008,Newark Airport,Newark,NJ,US,40.7357,-74.1724,Airport,3747,1075,0.29
+LOC009,New York Sort Facility,New York,NY,US,40.7128,-74.006,Sort Facility,20118,3105,0.26
+LOC010,Philadelphia Last Mile Facility,Philadelphia,PA,US,39.9526,-75.1652,Last Mile Facility,2267,1628,0.14
+LOC011,Boston Warehouse,Boston,MA,US,42.3601,-71.0589,Warehouse,42606,2988,0.15
+LOC012,Memphis Airport,Memphis,TN,US,35.1495,-90.049,Airport,9792,2463,0.55
+LOC013,Atlanta Hub,Atlanta,GA,US,33.749,-84.388,Hub,12016,2712,0.28
+LOC014,Dallas Airport,Dallas,TX,US,32.7767,-96.797,Airport,24483,1578,0.59
+LOC015,Denver Last Mile Facility,Denver,CO,US,39.7392,-104.9903,Last Mile Facility,41994,3252,0.31
+LOC016,Kansas City Airport,Kansas City,MO,US,39.0997,-94.5786,Airport,20457,1121,0.52
+LOC017,Cincinnati Hub,Cincinnati,OH,US,39.1031,-84.512,Hub,41757,1600,0.88
+LOC018,Nashville Hub,Nashville,TN,US,36.1627,-86.7816,Hub,6675,261,0.42
+LOC019,Charlotte Airport,Charlotte,NC,US,35.2271,-80.8431,Airport,33606,3442,0.17
+LOC020,Baltimore Last Mile Facility,Baltimore,MD,US,39.2904,-76.6122,Last Mile Facility,26851,1116,0.87
+LOC021,Washington Port,Washington,DC,US,38.9072,-77.0369,Port,24247,437,0.53
+LOC022,Richmond Hub,Richmond,VA,US,37.5407,-77.436,Hub,22243,479,0.32
+LOC023,Raleigh Port,Raleigh,NC,US,35.7796,-78.6382,Port,49984,2668,0.72
+LOC024,Jacksonville Airport,Jacksonville,FL,US,30.3322,-81.6557,Airport,3695,1595,0.11
+LOC025,Miami Warehouse,Miami,FL,US,25.7617,-80.1918,Warehouse,40504,491,0.68
+LOC026,Tampa Distribution Center,Tampa,FL,US,27.9506,-82.4572,Distribution Center,13666,3661,0.39
+LOC027,Orlando Distribution Center,Orlando,FL,US,28.5383,-81.3792,Distribution Center,23662,300,0.6
+LOC028,Minneapolis Hub,Minneapolis,MN,US,44.9778,-93.265,Hub,24599,4698,0.35
+LOC029,Milwaukee Port,Milwaukee,WI,US,43.0389,-87.9065,Port,31818,2831,0.61
+LOC030,St Louis Warehouse,St Louis,MO,US,38.627,-90.1994,Warehouse,43530,2790,0.71
+LOC031,Oklahoma City Hub,Oklahoma City,OK,US,35.4676,-97.5164,Hub,34270,4593,0.5
+LOC032,Houston Distribution Center,Houston,TX,US,29.7604,-95.3698,Distribution Center,1206,1584,0.26
+LOC033,San Antonio Last Mile Facility,San Antonio,TX,US,29.4241,-98.4936,Last Mile Facility,42523,4291,0.66
+LOC034,Austin Port,Austin,TX,US,30.2672,-97.7431,Port,41342,1778,0.7
+LOC035,El Paso Airport,El Paso,TX,US,31.7619,-106.485,Airport,17198,1822,0.66
+LOC036,Albuquerque Airport,Albuquerque,NM,US,35.0844,-106.6504,Airport,44585,2829,0.75
+LOC037,Phoenix Distribution Center,Phoenix,AZ,US,33.4484,-112.074,Distribution Center,45020,2793,0.47
+LOC038,Las Vegas Airport,Las Vegas,NV,US,36.1699,-115.1398,Airport,4627,1463,0.81
+LOC039,Los Angeles Warehouse,Los Angeles,CA,US,34.0522,-118.2437,Warehouse,19047,1629,0.2
+LOC040,San Diego Distribution Center,San Diego,CA,US,32.7157,-117.1611,Distribution Center,45262,2337,0.19
+LOC041,San Francisco Distribution Center,San Francisco,CA,US,37.7749,-122.4194,Distribution Center,2306,4129,0.1
+LOC042,Oakland Port,Oakland,CA,US,37.8044,-122.2712,Port,10474,809,0.51
+LOC043,Portland Distribution Center,Portland,OR,US,45.5152,-122.6784,Distribution Center,4748,4879,0.3
+LOC044,Seattle Warehouse,Seattle,WA,US,47.6062,-122.3321,Warehouse,29021,3843,0.52
+LOC045,Salt Lake City Distribution Center,Salt Lake City,UT,US,40.7608,-111.891,Distribution Center,47576,4759,0.3
+LOC046,Sacramento Last Mile Facility,Sacramento,CA,US,38.5816,-121.4944,Last Mile Facility,45417,1736,0.33
+LOC047,Fresno Distribution Center,Fresno,CA,US,36.7378,-119.7871,Distribution Center,27736,4197,0.5
+LOC048,Tucson Sort Facility,Tucson,AZ,US,32.2226,-110.9747,Sort Facility,1854,3574,0.64
+LOC049,Omaha Port,Omaha,NE,US,41.2565,-95.9345,Port,39559,1833,0.29
+LOC050,Des Moines Airport,Des Moines,IA,US,41.5868,-93.625,Airport,33970,3355,0.29
+LOC051,Madison Last Mile Facility,Madison,WI,US,43.0731,-89.4012,Last Mile Facility,38157,2427,0.48
+LOC052,Buffalo Hub,Buffalo,NY,US,42.8864,-78.8784,Hub,1197,2030,0.75
+LOC053,Rochester Distribution Center,Rochester,NY,US,43.1566,-77.6088,Distribution Center,28848,1247,0.51
+LOC054,Albany Port,Albany,NY,US,42.6526,-73.7562,Port,27370,759,0.36
+LOC055,Hartford Airport,Hartford,CT,US,41.7658,-72.6734,Airport,7546,1469,0.51
+LOC056,Providence Warehouse,Providence,RI,US,41.824,-71.4128,Warehouse,12411,3011,0.18
+LOC057,Manchester Distribution Center,Manchester,NH,US,42.9956,-71.4548,Distribution Center,20360,2059,0.41
+LOC058,Portland ME Hub,Portland ME,ME,US,43.6591,-70.2568,Hub,12111,4836,0.64
+LOC059,Lexington Distribution Center,Lexington,KY,US,38.0406,-84.5037,Distribution Center,40384,4161,0.66
+LOC060,Knoxville Last Mile Facility,Knoxville,TN,US,35.9606,-83.9207,Last Mile Facility,47843,723,0.54
+LOC061,Chattanooga Airport,Chattanooga,TN,US,35.0456,-85.3097,Airport,46936,2149,0.9
+LOC062,Birmingham Sort Facility,Birmingham,AL,US,33.5186,-86.8104,Sort Facility,21932,3208,0.81
+LOC063,Montgomery Last Mile Facility,Montgomery,AL,US,32.3668,-86.2999,Last Mile Facility,44016,3270,0.66
+LOC064,Jackson Warehouse,Jackson,MS,US,32.2988,-90.1848,Warehouse,5499,3291,0.81
+LOC065,Baton Rouge Airport,Baton Rouge,LA,US,30.4515,-91.1871,Airport,13874,1748,0.23
+LOC066,New Orleans Sort Facility,New Orleans,LA,US,29.9511,-90.0715,Sort Facility,49354,3283,0.18
+LOC067,Little Rock Warehouse,Little Rock,AR,US,34.7465,-92.2896,Warehouse,3200,3061,0.23
+LOC068,Springfield Hub,Springfield,MO,US,37.209,-93.2923,Hub,12969,2969,0.46
+LOC069,Wichita Port,Wichita,KS,US,37.6872,-97.3301,Port,47760,4167,0.67
+LOC070,Topeka Distribution Center,Topeka,KS,US,39.0473,-95.6752,Distribution Center,26876,4087,0.39
+LOC071,Sioux Falls Last Mile Facility,Sioux Falls,SD,US,43.546,-96.7311,Last Mile Facility,34986,4596,0.35
+LOC072,Fargo Airport,Fargo,ND,US,46.8772,-96.7898,Airport,42914,4665,0.31
+LOC073,Billings Sort Facility,Billings,MT,US,45.7833,-108.5007,Sort Facility,15373,3536,0.49
+LOC074,Boise Warehouse,Boise,ID,US,43.615,-116.2023,Warehouse,31746,325,0.38
+LOC075,Spokane Distribution Center,Spokane,WA,US,47.6588,-117.426,Distribution Center,40790,1059,0.79

@@ -1,0 +1,37 @@
+{
+  "accuracy": 0.585,
+  "precision": 0.5258,
+  "recall": 0.5147,
+  "f1": 0.5202,
+  "roc_auc": 0.6142,
+  "train_samples": 24385,
+  "test_samples": 5615,
+  "feature_columns": [
+    "distance_km",
+    "planned_duration_minutes",
+    "weather_exposure",
+    "traffic_exposure",
+    "congestion_exposure",
+    "transport_delay_minutes",
+    "external_event_exposure",
+    "historical_route_delay_rate",
+    "number_of_stops",
+    "number_of_handoffs",
+    "weight_kg",
+    "priority_encoded"
+  ],
+  "feature_importances": {
+    "weather_exposure": 0.1431,
+    "congestion_exposure": 0.1262,
+    "traffic_exposure": 0.1062,
+    "external_event_exposure": 0.0911,
+    "weight_kg": 0.0899,
+    "planned_duration_minutes": 0.0849,
+    "transport_delay_minutes": 0.0837,
+    "distance_km": 0.0819,
+    "historical_route_delay_rate": 0.0757,
+    "priority_encoded": 0.0452,
+    "number_of_handoffs": 0.0387,
+    "number_of_stops": 0.0335
+  }
+}

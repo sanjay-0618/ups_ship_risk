@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-slate-900 bg-slate-50/70;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Leaflet Container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  border-radius: 0.75rem;
+}
+
+/* Subtle Modern Accents */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.gradient-border-b {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, transparent, rgba(59, 130, 246, 0.3), transparent) 1;
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 15px -3px rgba(59, 130, 246, 0.25);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px -3px rgba(239, 68, 68, 0.25);
+}
+
+.glow-green {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.25);
+}

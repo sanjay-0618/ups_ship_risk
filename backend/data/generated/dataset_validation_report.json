@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-09-09T11:01:13.391488",
+  "stats": {
+    "locations": 75,
+    "route_edges": 371,
+    "historical_shipments": 30000,
+    "sla_breach_rate": 0.45,
+    "shipment_events": 875014,
+    "current_shipments": 2000,
+    "risk_scores": 2000,
+    "weather_events": 4000,
+    "traffic_events": 8000
+  },
+  "errors": [],
+  "warnings": [
+    "SLA breach rate 45.0% outside expected 10\u201340% range"
+  ],
+  "error_count": 0,
+  "warning_count": 1
+}
