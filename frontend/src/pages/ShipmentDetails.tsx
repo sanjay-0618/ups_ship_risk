@@ -5,7 +5,6 @@ import { shipmentsApi } from '../services/api';
 import type { Shipment, RiskScore, ShipmentEvent } from '../types';
 import RiskBadge from '../components/common/RiskBadge';
 import RiskBreakdown from '../components/risk/RiskBreakdown';
-import DelayBreakdown from '../components/risk/DelayBreakdown';
 import ShipmentTimeline from '../components/shipments/ShipmentTimeline';
 import { formatDateTime, formatMinutes } from '../utils/formatters';
 
@@ -106,17 +105,12 @@ export default function ShipmentDetails() {
           {/* Risk Factors */}
           {risk && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+              <div className="md:col-span-2 bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
                 <h3 className="font-semibold text-gray-900 mb-4 flex items-center">
                   <AlertTriangle className="w-5 h-5 text-gray-400 mr-2" />
                   Risk Breakdown
                 </h3>
                 <RiskBreakdown risk={risk} />
-              </div>
-
-              <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
-                <h3 className="font-semibold text-gray-900 mb-4">Delay Predictions</h3>
-                <DelayBreakdown delays={risk.delay_breakdown} />
               </div>
             </div>
           )}
