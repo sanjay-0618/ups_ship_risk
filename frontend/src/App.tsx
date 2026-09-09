@@ -8,7 +8,6 @@ import ShipmentDetails from './pages/ShipmentDetails';
 import RiskCenter from './pages/RiskCenter';
 import Disruptions from './pages/Disruptions';
 import Analytics from './pages/Analytics';
-import Settings from './pages/Settings';
 import ErrorBoundary from './components/common/ErrorBoundary';
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
           <Route path="/risk-center" element={<RiskCenter />} />
           <Route path="/disruptions" element={<Disruptions />} />
           <Route path="/analytics" element={<Analytics />} />
-          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           </ErrorBoundary>

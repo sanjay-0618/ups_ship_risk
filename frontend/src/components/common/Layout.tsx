@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { 
   LayoutDashboard, Navigation, Package, 
-  AlertTriangle, Zap, BarChart2, Settings, 
+  AlertTriangle, Zap, BarChart2, 
   Menu, X, ShieldCheck, Activity, Cpu
 } from 'lucide-react';
 import DataSourceBadge from './DataSourceBadge';
@@ -27,12 +27,6 @@ const navSections = [
       { path: '/risk-center', label: 'Risk Radar', icon: AlertTriangle, badge: 'Active', badgeColor: 'bg-rose-50 text-rose-600 border border-rose-200' },
       { path: '/disruptions', label: 'Threat Simulator', icon: Zap, badge: 'What-If' },
       { path: '/analytics', label: 'Predictive Analytics', icon: BarChart2 },
-    ],
-  },
-  {
-    title: 'SYSTEM',
-    items: [
-      { path: '/settings', label: 'Configuration', icon: Settings },
     ],
   },
 ];
