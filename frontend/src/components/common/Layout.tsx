@@ -6,6 +6,7 @@ import {
   Search, Bell, Menu, X, ShieldCheck, Activity, Cpu
 } from 'lucide-react';
 import DataSourceBadge from './DataSourceBadge';
+import upsLogo from '../../assets/ups-logo.svg';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -59,12 +60,12 @@ export default function Layout({ children }: LayoutProps) {
           {/* Brand Header */}
           <div className="h-16 flex items-center justify-between px-5 border-b border-slate-100">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-cyan-500 flex items-center justify-center text-white shadow-md shadow-blue-500/25">
-                <Navigation className="w-5 h-5 -rotate-45 fill-white/20" />
+              <div className="w-9 h-9 rounded-xl bg-[#351c15] flex items-center justify-center overflow-hidden shadow-md shadow-slate-400/25">
+                <img src={upsLogo} alt="UPS" className="w-8 h-8 object-contain" />
               </div>
               <div>
                 <div className="text-base font-black text-slate-900 tracking-tight flex items-center gap-1.5">
-                  Logistics<span className="text-blue-600">AI</span>
+                  UPS <span className="text-blue-600">TrackSafe</span>
                   <span className="px-1.5 py-0.2 rounded text-[9px] font-bold bg-blue-50 text-blue-600 border border-blue-200/60">v2.4</span>
                 </div>
                 <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
